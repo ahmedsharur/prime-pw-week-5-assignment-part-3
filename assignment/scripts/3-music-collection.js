@@ -15,8 +15,9 @@ function addToCollection(title, artist, yearPublished){
     artist : artist,
     yearPublished: yearPublished,
   }
+  //adding newAlbum to the collection array
 collection.push(newAlbum);
-
+// returning newAlbum
 return newAlbum;
 
 }
@@ -54,7 +55,6 @@ function showCollection (array){
 
 showCollection(collection)
 // Add a function named findByArtist. This function should:
-
 // Take in artist (a string) parameter
 // Create an array to hold any results, empty to start
 // Loop through the collection and add any objects with a matching artist to the array.
@@ -72,9 +72,7 @@ function findByArtist(artist){
 
 console.log(findByArtist('Khadar Keyow'));
 
-
 // When testing your functions, write all tests in the JavaScript file!
-
 // Stretch goals
 // Create a function called search. This function should:
 // Take an input parameter for a search criteria object. Create your solution based on a search object that has these properties:
